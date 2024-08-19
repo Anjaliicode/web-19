@@ -1,0 +1,491 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown .arrow-down {
+  font-size: 12px;
+}
+
+.fab{  
+color: #3cbeee;
+padding:0px 5px;
+margin-right: 25px;
+}
+
+.get-started {
+  background-color: #38b6ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* cursor: pointer; */
+}
+/* -------------------------first-section--------------------------- */
+.container {
+  background-image: url("https://themewagon.github.io/WaterLand/img/carousel-2.jpg");
+  background-size:cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 10% 0; */
+  width:100%;
+  /* opacity:6; */
+  /* padding:10px 30px; */
+  /* background: rgba(0, 0, 0, .7); */
+}
+.content {
+  color: white;
+  max-width: 50%;
+}
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.content p {
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #1094bc;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  /* margin-right: ; */
+}
+.form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.form-container .book-btn {
+  width: 100%;
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* --------------------------fourth-section-------------------------- */
+
+.packages-section {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.packages-header {
+  margin-bottom: 40px;
+}
+.packages-header h2 {
+  color: #5bc0de;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.packages-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.packages-header p {
+  color: #666;
+  margin-bottom: 20px;
+}
+.packages-features {
+  list-style-type: none;
+  padding: 0;
+}
+.packages-features li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.packages-features li::before {
+  content: "✓";
+  color: #5bc0de;
+  position: absolute;
+  left: 0;
+}
+.packages-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.package-card {
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.package-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.package-card p {
+  margin-bottom: 20px;
+}
+.package-price {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.package-price span {
+  font-size: 0.5em;
+}
+.package-features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.package-features li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.package-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+}
+.family-package {
+  background-color: #1e2a38;
+}
+.basic-package {
+  background-color: #5bc0de;
+}
+.book-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.book-btn-light {
+  background-color: white;
+  color: #1e2a38;
+}
+.book-btn-dark {
+  background-color: #1e2a38;
+  color: white;
+}
+.book-btn:hover {
+  opacity: 0.9;
+}
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5bc0de;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* ------------------------------footer--------------------------- */
+.footer {
+  background-color: #001f3f;
+  color: #ffffff;
+  padding: 50px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.footer-column h3 {
+  color: #38b6ff;
+  margin-bottom: 20px;
+}
+
+.footer-column p {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.opening-hours li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* .payment-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+} */
+
+.payment-icons img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.footer-bottom a {
+  color: #38b6ff;
+  text-decoration: none;
+}
+/* ---------------------service-section-------------------------- */
+.services-section {
+  background-image: url("https://themewagon.github.io/WaterLand/img/carousel-1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  padding: 50px 10%;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255,0.8);
+  background-blend-mode:darken;
+}
+.fas{
+    color: #38b6ff;   
+}
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.services-header h2 {
+  color: #5bc0de;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.services-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.services-header p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.park-schedule {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.schedule-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #aed8e5;
+}
+.schedule-row span:last-child {
+  color: #5bc0de;
+}
+.services-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service-card {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(25% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.service-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.service-card h3 {
+  margin-bottom: 10px;
+}
+
+.packages-section {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.packages-header {
+  margin-bottom: 40px;
+}
+.packages-header h2 {
+  color: #5bc0de;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.packages-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.packages-header p {
+  color: #666;
+  margin-bottom: 20px;
+}
+.packages-features {
+  list-style-type: none;
+  padding: 0;
+}
+.packages-features li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.packages-features li::before {
+  content: "✓";
+  color: #5bc0de;
+  position: absolute;
+  left: 0;
+}
+.packages-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.package-card {
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.package-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.package-card p {
+  margin-bottom: 20px;
+}
+.package-price {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.package-price span {
+  font-size: 0.5em;
+}
+.package-features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.package-features li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.package-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+}
+.family-package {
+  background-color: #1e2a38;
+}
+.basic-package {
+  background-color: #5bc0de;
+}
+.book-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.book-btn-light {
+  background-color: white;
+  color: #1e2a38;
+}
+.book-btn-dark {
+  background-color: #1e2a38;
+  color: white;
+}
+
